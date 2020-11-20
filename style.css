@@ -1,11 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    color: #7ec23a;
-    color: #e6df22;
-    color: #e3d496;
-    color: #e08734;
-    columns: #61b3d4;
 }
 
 header {
@@ -33,14 +28,16 @@ header nav ul {
 }
 
 header nav ul li {
-    margin-left: 1rem;
+    margin-left: 0rem;
 
 }
 
 header nav ul li a {
+    flex-direction: column;
+    justify-content: space-between;
     text-decoration: none;
     font-size: 1.5em;
-    color: white;
-    background: url(./images/leaf.png);
-    background-size: cover;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    color: #ffffff;
 }
